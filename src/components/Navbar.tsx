@@ -50,6 +50,9 @@ export const Navbar = () => {
           </Link>
           {user ? (
             <>
+              <Link to="/my-bookings" className="text-sm font-medium hover:text-primary transition-colors">
+                My Bookings
+              </Link>
               <Link to="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
                 Dashboard
               </Link>
@@ -93,6 +96,9 @@ export const Navbar = () => {
               </Link>
               {user ? (
                 <>
+                  <Link to="/my-bookings" className="text-sm font-medium hover:text-primary transition-colors">
+                    My Bookings
+                  </Link>
                   <Link to="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
                     Dashboard
                   </Link>

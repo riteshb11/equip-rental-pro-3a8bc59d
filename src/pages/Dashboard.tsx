@@ -83,7 +83,7 @@ export default function Dashboard() {
             <CardContent>
               <div className="grid md:grid-cols-3 gap-4">
                 {isFarmer && (
-                  <Button onClick={() => navigate("/equipment/new")} className="h-24 flex flex-col gap-2">
+                  <Button onClick={() => navigate("/add-equipment")} className="h-24 flex flex-col gap-2">
                     <Plus className="h-6 w-6" />
                     <span>List Equipment</span>
                   </Button>
@@ -92,7 +92,7 @@ export default function Dashboard() {
                   <Tractor className="h-6 w-6" />
                   <span>Browse Equipment</span>
                 </Button>
-                <Button variant="outline" onClick={() => navigate("/bookings")} className="h-24 flex flex-col gap-2">
+                <Button variant="outline" onClick={() => navigate("/my-bookings")} className="h-24 flex flex-col gap-2">
                   <Calendar className="h-6 w-6" />
                   <span>My Bookings</span>
                 </Button>
